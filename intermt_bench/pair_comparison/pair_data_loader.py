@@ -253,7 +253,6 @@ def get_local_evaluation_data(test_item, if_reason:bool = False, evaluation_cate
     if evaluation_category is None:
         evaluation_category = LOCAL_EVALUATION_CATEGORIES
     local_judge_prompt = get_local_judge_prompt(if_reason=if_reason, evaluation_list=evaluation_category)
-    # NOTE random_choice 1 代表 A,B答案发生了互换，要对 Test_Item 进行相应的互换
     basic_prompt, image_inputs, random_choice = get_local_evaluation_conversation(test_item)
     return basic_prompt, image_inputs, local_judge_prompt, random_choice
 
