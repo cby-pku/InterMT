@@ -5,9 +5,9 @@ MODEL_NAME = 'gpt-4o'
 
 TEMPERATURE = 0.5
 
-GLOBAL_TEST_FILE = './test_dataset/pair_comparison_global_test_data_300_supple_2.json'
+GLOBAL_TEST_FILE = './test_dataset/global/pair_comparison_global_test_data_300.json'
 
-LOCAL_TEST_FILE = './test_dataset/pair_comparison_local_test_data_900_supple_2.json'
+LOCAL_TEST_FILE = './test_dataset/local/pair_comparison_local_test_data_900.json'
 
 API_KEY = '' # your api key
 API_BASE_URL = '' # your api base url
