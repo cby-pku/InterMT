@@ -7,12 +7,15 @@
 
 
 ## Abstract
-As multimodal large models (MLLMs) continue to advance across challenging tasks, a key question emerges: **_What essential capabilities are still missing?_**
-A critical aspect of human learning is continuous interaction with the environment — not limited to language, but also involving multimodal understanding and generation. To move closer to human-level intelligence, models must similarly support **multi-turn**, **multimodal interaction**. In particular, they should comprehend interleaved multimodal contexts and respond coherently in ongoing exchanges.
-In this work, we present **an initial exploration** through the *InterMT* — **the first preference dataset for _multi-turn_ multimodal interaction**, grounded in real human feedback. In this exploration, we particularly emphasize the importance of human oversight, introducing expert annotations to guide the process, motivated by the fact that current MLLMs lack such complex interactive capabilities. *InterMT* captures human preferences at both global and local levels into nine sub-dimensions, consists of 5,437 prompts, 2.6k multi-turn dialogue instances, and 2.1k human-labeled preference pairs.
-To compensate for the lack of capability for multimodal understanding and generation, we introduce an agentic workflow that leverages tool-augmented MLLMs to construct multi-turn QA instances.
-To further this goal, we introduce *InterMT-Bench* to assess the ability of MLLMs in assisting judges with multi-turn, multimodal tasks. We demonstrate the utility of *InterMT* through applications such as judge moderation and further reveal the _multi-turn scaling law_ of judge models.
-We hope the open-source nature of our data can help facilitate further research on aligning current MLLMs to the next step.
+As multimodal large models (MLLMs) continue to advance across challenging tasks, a key question emerges: ***What essential capabilities are still missing? ***
+A critical aspect of human learning is continuous interaction with the environment -- not limited to language, but also involving multimodal understanding and generation.
+To move closer to human-level intelligence, models must similarly support **multi-turn**, **multimodal interaction**. In particular, they should comprehend interleaved multimodal contexts and respond coherently in ongoing exchanges.
+In this work, we present **an initial exploration** through the *InterMT* -- **the first preference dataset for *multi-turn* multimodal interaction**, grounded in real human feedback. In this exploration, we particularly emphasize the importance of human oversight, introducing expert annotations to guide the process, motivated by the fact that current MLLMs lack such complex interactive capabilities. *InterMT* captures human preferences at both global and local levels into nine sub-dimensions, consists of 15.6k prompts, 52.6k multi-turn dialogue instances, and 32.4k human-labeled preference pairs. 
+To compensate for the lack of capability for multi-modal understanding and generation, we introduce an agentic workflow that leverages tool-augmented MLLMs to construct multi-turn QA instances.
+To further this goal, we introduce *InterMT-Bench* to assess the ability of
+MLLMs in assisting judges with multi-turn, multimodal tasks.
+We demonstrate the utility of *InterMT* through applications such as judge moderation and further reveal the *multi-turn scaling law* of judge model.
+We hope the open-source of our data can help facilitate further research on aligning current MLLMs to the next step.
 
 
 ![InterMT](./overall.png)
