@@ -1,6 +1,6 @@
 # Multi-turn Multimodal Pair Comparison Evaluation
 
-This repository contains tools for evaluating dialogue models in multi-turn interaction tasks, supporting both global and local evaluation modes.
+This repository contains tools for evaluating dialogue models in multi-turn interaction tasks with pair comparison, supporting both global and local evaluation modes.
 
 ## Overview
 
@@ -236,12 +236,6 @@ LOCAL_TEST_FILE = './test_dataset/pair_comparison_local_test_data_900_supple_2.j
   - `pair_eval_global_judge.py`: Global evaluation prompts and criteria
   - `pair_eval_local_judge.py`: Local evaluation prompts and criteria
 
-## Performance and Scalability
-
-- **Parallel Processing**: Uses Ray for efficient batch API calls
-- **Caching System**: Avoids redundant API calls through intelligent caching
-- **Memory Efficient**: Processes large datasets without memory overflow
-- **Retry Mechanisms**: Robust handling of API failures and rate limits
 
 ## Statistical Analysis
 
@@ -251,8 +245,4 @@ The system provides comprehensive statistical analysis:
 - **Confidence Intervals**: 95% confidence intervals for correlation coefficients
 - **Cohen's Kappa**: Inter-rater agreement measure
 - **F1 Score**: Binary classification performance metric
-
-## License
-
-MIT License
 

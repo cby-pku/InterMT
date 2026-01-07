@@ -219,28 +219,6 @@ Task: Drawing a cat step-by-step
 
 ## Performance Analysis
 
-### Statistics Output
-
-```json
-{
-  "average_score": 3.85,
-  "score_distribution": {
-    "1": 5,
-    "2": 12,
-    "3": 28,
-    "4": 35,
-    "5": 20
-  },
-  "total_evaluated": 100,
-  "total_samples": 100,
-  "config": {
-    "inference_model": "gpt-4",
-    "judge_model": "gpt-4o",
-    "temperature": 0.5
-  }
-}
-```
-
 ### Comparison Table
 
 The system generates comparative tables showing:
@@ -302,7 +280,3 @@ Ray-based parallel processing enables:
 - Concurrent API requests
 - Efficient resource utilization
 - Progress tracking and monitoring
-
-## License
-
-This evaluation system is designed for research and development purposes in AI model assessment. 

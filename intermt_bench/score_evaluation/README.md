@@ -187,11 +187,3 @@ python score_inference.py --mode both --categories all --reason --model gpt-4o
 
 **API Errors**: Verify your API key and endpoint in the configuration file. Check network connectivity and API rate limits.
 
-## Recent Updates
-
-- **English Translation**: All Chinese text translated to English
-- **Enhanced Score Extraction**: Improved regex patterns for various output formats
-- **Dual Evaluation Modes**: Support for both global and local evaluation
-- **Comprehensive CLI**: Full command-line argument support
-- **Intelligent Caching**: Efficient caching mechanism to reduce API costs
-- **Detailed Output**: Comprehensive result files with debugging information 
