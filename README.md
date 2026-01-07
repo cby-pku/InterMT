@@ -1,13 +1,13 @@
 
 
 
-# InterMT: Multi-Turn Interleaved Preference Alignment with Human Feedback
+# (NeurIPS 2025 Spotlight) InterMT: Multi-Turn Interleaved Preference Alignment with Human Feedback
 
-[🏠 Homepage](https://pku-intermt.github.io/) | [🤗 InterMT Dataset](https://huggingface.co/datasets/PKU-Alignment/InterMT) | [👍 InterMT-Bench](https://github.com/cby-pku/INTERMT)
+[🏠 Homepage](https://pku-intermt.github.io/) | [🤗 InterMT Dataset](https://huggingface.co/datasets/PKU-Alignment/InterMT) | [👍 InterMT-Bench](https://github.com/cby-pku/INTERMT) | [📑 Paper](arxiv.org/abs/2505.23950)
 
 
 ## Abstract
-As multimodal large models (MLLMs) continue to advance across challenging tasks, a key question emerges: ***What essential capabilities are still missing? ***
+As multimodal large models (MLLMs) continue to advance across challenging tasks, a key question emerges: **What essential capabilities are still missing?**
 A critical aspect of human learning is continuous interaction with the environment -- not limited to language, but also involving multimodal understanding and generation.
 To move closer to human-level intelligence, models must similarly support **multi-turn**, **multimodal interaction**. In particular, they should comprehend interleaved multimodal contexts and respond coherently in ongoing exchanges.
 In this work, we present **an initial exploration** through the *InterMT* -- **the first preference dataset for *multi-turn* multimodal interaction**, grounded in real human feedback. In this exploration, we particularly emphasize the importance of human oversight, introducing expert annotations to guide the process, motivated by the fact that current MLLMs lack such complex interactive capabilities. *InterMT* captures human preferences at both global and local levels into nine sub-dimensions, consists of 15.6k prompts, 52.6k multi-turn dialogue instances, and 32.4k human-labeled preference pairs. 
